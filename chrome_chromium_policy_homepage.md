@@ -1,7 +1,7 @@
 ---
 title: "Sæt startside(r)"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_homepage.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_policy_homepage.sh
 parameters:
   - name: "Startside-URL"
     type: "string"

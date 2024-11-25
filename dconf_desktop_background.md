@@ -1,7 +1,7 @@
 ---
 title: "Skift baggrundsbillede på skrivebordet"
 parent: "Desktop"
-source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/dconf_desktop_background.sh
+source: os2borgerpc-scripts/os2borgerpc/desktop/dconf_desktop_background.sh
 parameters:
   - name: "Baggrundsbillede"
     type: "file"

@@ -1,7 +1,7 @@
 ---
 title: "Undgå Pauseskærm / Dvale via musemarkørbevægelse"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/suspend-move-mouse-continuously.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/suspend-move-mouse-continuously.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

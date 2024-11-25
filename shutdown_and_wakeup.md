@@ -1,7 +1,7 @@
 ---
 title: "System - Luk ned og vågn op dagligt"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/shutdown_and_wakeup.sh
+source: os2borgerpc-scripts/common/system/shutdown_and_wakeup.sh
 parameters:
   - name: "Timer"
     type: "string"

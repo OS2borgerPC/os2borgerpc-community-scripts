@@ -1,7 +1,7 @@
 ---
 title: "System - Slå dvale- og hviletilstand fra"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/systemd_disable_suspend_hibernate_switches.sh
+source: os2borgerpc-scripts/common/system/systemd_disable_suspend_hibernate_switches.sh
 parameters:
   - name: "Slå dvale- og hviletilstand fra?"
     type: "boolean"

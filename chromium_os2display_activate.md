@@ -1,7 +1,7 @@
 ---
 title: "Aktiver OS2display-skærm (Chromium)"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.py
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_os2display_activate.py
 parameters:
   - name: "Screen URL"
     type: "string"

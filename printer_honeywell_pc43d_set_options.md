@@ -1,7 +1,7 @@
 ---
 title: "Honeywell PC43d billetprinter: Sæt indstillinger (Intermec)"
 parent: "Printer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_honeywell_pc43d_set_options.sh
+source: os2borgerpc-scripts/os2borgerpc/printer/printer_honeywell_pc43d_set_options.sh
 parameters:
 compatibility:
   - "BorgerPC"

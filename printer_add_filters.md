@@ -1,7 +1,7 @@
 ---
 title: "Tilføj Printer-filter-filer"
 parent: "Printer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_add_filters.sh
+source: os2borgerpc-scripts/os2borgerpc/printer/printer_add_filters.sh
 parameters:
   - name: "CUPS filter fil 1"
     type: "file"

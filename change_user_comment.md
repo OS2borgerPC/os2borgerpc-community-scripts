@@ -1,7 +1,7 @@
 ---
 title: "Skift navn for Borger-brugeren"
 parent: "System"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/change_user_comment.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/change_user_comment.sh
 parameters:
   - name: "Navn for Borger-brugeren"
     type: "string"

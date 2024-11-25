@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Fjern brugerskifte fra menuen"
 parent: "Udfases"
-source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_user_switching.sh
+source: os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_user_switching.sh
 parameters:
 compatibility:  
   - "22.04"

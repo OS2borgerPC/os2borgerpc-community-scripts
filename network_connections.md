@@ -1,7 +1,7 @@
 ---
 title: "System - Vis netværksenheder og -adresser"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/network_connections.sh
+source: os2borgerpc-scripts/common/system/network_connections.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

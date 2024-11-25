@@ -1,7 +1,7 @@
 ---
 title: "Genvej til logud fra skrivebord"
 parent: "Desktop"
-source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_logout_button_icon.sh
+source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_logout_button_icon.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

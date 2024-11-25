@@ -1,7 +1,7 @@
 ---
 title: "Installer Epson skanner-program"
 parent: "Skanner"
-source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/epsonscan2_install.sh
+source: os2borgerpc-scripts/os2borgerpc/skanner/epsonscan2_install.sh
 parameters:
 compatibility:
   - "BorgerPC"

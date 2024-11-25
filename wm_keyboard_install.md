@@ -1,7 +1,7 @@
 ---
 title: "Chromium med onboard-tastatur"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/wm_keyboard_install.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/wm_keyboard_install.sh
 parameters:
   - name: "Tilføj skærmtastatur?"
     type: "boolean"

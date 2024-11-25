@@ -1,7 +1,7 @@
 ---
 title: "Genvej til program fra skrivebordet"
 parent: "Desktop"
-source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_program_shortcut.sh
+source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_program_shortcut.sh
 parameters:
   - name: "Tilføj programmet?"
     type: "boolean"

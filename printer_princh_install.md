@@ -1,7 +1,7 @@
 ---
 title: "Installer Princh Cloud Printer"
 parent: "Printer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_princh_install.sh
+source: os2borgerpc-scripts/os2borgerpc/printer/printer_princh_install.sh
 parameters:
 compatibility:  
   - "22.04"

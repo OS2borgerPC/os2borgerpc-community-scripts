@@ -1,7 +1,7 @@
 ---
 title: "Touchskærm: Fix problemer med koordinater/akser"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/touchscreen_fix_coordinates_issues.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/touchscreen_fix_coordinates_issues.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

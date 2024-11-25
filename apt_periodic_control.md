@@ -1,7 +1,7 @@
 ---
 title: "System - Aktiver automatiske opdateringer fra Ubuntu"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/apt_periodic_control.sh
+source: os2borgerpc-scripts/common/system/apt_periodic_control.sh
 parameters:
   - name: "Aktiver generelle opdateringer (sikkerhed/alt/falsk)"
     type: "string"

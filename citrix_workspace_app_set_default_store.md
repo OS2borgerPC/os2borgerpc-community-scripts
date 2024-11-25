@@ -1,7 +1,7 @@
 ---
 title: "Citrix Workspace App: Set default store"
 parent: "Programmer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/citrix_workspace_app_set_default_store.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/citrix_workspace_app_set_default_store.sh
 parameters:
   - name: "STORE_NAME"
     type: "string"

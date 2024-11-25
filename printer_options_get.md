@@ -1,7 +1,7 @@
 ---
 title: "Vis indstillinger"
 parent: "Printer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_options_get.sh
+source: os2borgerpc-scripts/os2borgerpc/printer/printer_options_get.sh
 parameters:
   - name: "Printer-navn"
     type: "string"

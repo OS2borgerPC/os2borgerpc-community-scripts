@@ -1,7 +1,7 @@
 ---
 title: "Chromium Ryd Cache NU"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_delete_profile.sh
 parameters:
 compatibility:  
   - "22.04"

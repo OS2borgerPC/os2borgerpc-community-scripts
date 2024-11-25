@@ -1,7 +1,7 @@
 ---
 title: "Sikkerhedshændelser"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_security_events.sh
+source: os2borgerpc-scripts/common/fejlfinding/debug_security_events.sh
 parameters:
   - name: "Type (se beskrivelse)"
     type: "string"

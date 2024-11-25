@@ -1,7 +1,7 @@
 ---
 title: "Chromium Installér"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_install.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_install.sh
 parameters:
 compatibility:  
   - "22.04"

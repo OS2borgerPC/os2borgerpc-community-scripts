@@ -1,7 +1,7 @@
 ---
 title: "Opstart / Login"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/login_lightdm_debugging.sh
+source: os2borgerpc-scripts/common/fejlfinding/login_lightdm_debugging.sh
 parameters:
 compatibility:
   - "BorgerPC"

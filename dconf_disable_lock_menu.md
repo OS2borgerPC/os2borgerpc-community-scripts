@@ -1,7 +1,7 @@
 ---
 title: "Desktop: Fjern lås fra menuen"
 parent: "Udfases"
-source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_lock_menu.sh
+source: os2borgerpc-scripts/os2borgerpc/udfases/dconf_disable_lock_menu.sh
 parameters:
 compatibility:  
   - "22.04"

@@ -1,7 +1,7 @@
 ---
 title: "Chromium - Skift startside"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_change_homepage.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_change_homepage.sh
 parameters:
   - name: "URL"
     type: "string"

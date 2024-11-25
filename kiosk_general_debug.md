@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC Kiosk generel"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/kiosk_general_debug.sh
+source: os2borgerpc-scripts/common/fejlfinding/kiosk_general_debug.sh
 parameters:
 compatibility:
   - "Kiosk"

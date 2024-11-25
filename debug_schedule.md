@@ -1,7 +1,7 @@
 ---
 title: "Tidsplaner"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_schedule.sh
+source: os2borgerpc-scripts/common/fejlfinding/debug_schedule.sh
 parameters:
 compatibility:
   - "Kiosk"

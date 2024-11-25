@@ -2,7 +2,7 @@
 title: "Bloker for login ved hård nedlukning"
 parent: "Sikkerhed"
 
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/hard_shutdown_lockdown.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/hard_shutdown_lockdown.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

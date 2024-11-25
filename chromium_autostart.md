@@ -1,7 +1,7 @@
 ---
 title: "Chromium Autostart"
 parent: "Kiosk"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/chromium_autostart.sh
 parameters:
   - name: "Forsinkelse"
     type: "int"

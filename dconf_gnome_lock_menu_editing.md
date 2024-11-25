@@ -1,7 +1,7 @@
 ---
 title: "Lås menu"
 parent: "Sikkerhed"
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_gnome_lock_menu_editing.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/dconf_gnome_lock_menu_editing.sh
 parameters:
   - name: "Aktivér"
     type: "boolean"

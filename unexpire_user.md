@@ -1,7 +1,7 @@
 ---
 title: "Sæt Borger som aktiv efter blokeret login (lås op)"
 parent: "Sikkerhed"
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/unexpire_user.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/unexpire_user.sh
 parameters:
 compatibility:  
   - "22.04"

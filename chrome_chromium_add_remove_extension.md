@@ -1,7 +1,7 @@
 ---
 title: "Tilføj/Fjern Udvidelse(r)"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_add_remove_extension.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_add_remove_extension.sh
 summary: "Tilføjer/fjerner en eller flere Chrome/Chromium-Udvidelser til/fra browserens ExtensionSettings policy"
 parameters:
   - name: "Aktivér"

@@ -1,7 +1,7 @@
 ---
 title: "Fjern Luk Ned, Genstart og Hviletilstand fra menuen"
 parent: "Sikkerhed"
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/polkit_policy_shutdown_suspend.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/polkit_policy_shutdown_suspend.sh
 parameters:
   - name: "Fjern hviletilstand?"
     type: "boolean"

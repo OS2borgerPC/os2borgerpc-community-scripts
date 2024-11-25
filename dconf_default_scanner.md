@@ -1,7 +1,7 @@
 ---
 title: "Sæt standard-skanner"
 parent: "Skanner"
-source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/dconf_default_scanner.sh
+source: os2borgerpc-scripts/os2borgerpc/skanner/dconf_default_scanner.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

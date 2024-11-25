@@ -1,7 +1,7 @@
 ---
 title: "System - Opgrader klient nu"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/upgrade_client.sh
+source: os2borgerpc-scripts/common/system/upgrade_client.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

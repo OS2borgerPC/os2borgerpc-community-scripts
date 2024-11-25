@@ -1,7 +1,7 @@
 ---
 title: "List installerede programmer og services"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/list_programs_services.sh
+source: os2borgerpc-scripts/common/fejlfinding/list_programs_services.sh
 parameters:
 compatibility:
   - "Kiosk"

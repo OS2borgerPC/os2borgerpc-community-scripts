@@ -1,7 +1,7 @@
 ---
 title: "Vis tilgængelige skannere"
 parent: "Skanner"
-source: /assets/os2borgerpc-scripts/os2borgerpc/skanner/list_scanners.sh
+source: os2borgerpc-scripts/os2borgerpc/skanner/list_scanners.sh
 parameters:
 compatibility:
   - "BorgerPC"

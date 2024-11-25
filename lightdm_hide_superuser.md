@@ -1,7 +1,7 @@
 ---
 title: "Skjul superuser fra loginskærm og vis eventuelt loginfelt til valgfri bruger"
 parent: "Login"
-source: /assets/os2borgerpc-scripts/os2borgerpc/login/lightdm_hide_superuser.sh
+source: os2borgerpc-scripts/os2borgerpc/login/lightdm_hide_superuser.sh
 parameters:
   - name: "Skjul superuser-brugeren"
     type: "boolean"

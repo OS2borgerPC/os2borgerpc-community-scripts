@@ -1,7 +1,7 @@
 ---
 title: "Edge: Installer"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/edge_install.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/edge_install.sh
 parameters:
   - name: "Installér?"
     type: "boolean"

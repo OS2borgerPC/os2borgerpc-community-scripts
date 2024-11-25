@@ -1,7 +1,7 @@
 ---
 title: "Fix /etc/hosts"
 parent: "Udfases"
-source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/fix_etc_hosts.sh
+source: os2borgerpc-scripts/os2borgerpc/udfases/fix_etc_hosts.sh
 parameters:
 compatibility:  
   - "22.04"

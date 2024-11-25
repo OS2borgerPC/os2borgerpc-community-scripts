@@ -1,7 +1,7 @@
 ---
 title: "Genvej til hjemmeside på skrivebord"
 parent: "Desktop"
-source: /assets/os2borgerpc-scripts/os2borgerpc/desktop/desktop_url_shortcut.sh
+source: os2borgerpc-scripts/os2borgerpc/desktop/desktop_url_shortcut.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

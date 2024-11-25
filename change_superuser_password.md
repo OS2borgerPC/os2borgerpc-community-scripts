@@ -1,7 +1,7 @@
 ---
 title: "System - Skift kodeord for superuser"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/change_superuser_password.sh
+source: os2borgerpc-scripts/common/system/change_superuser_password.sh
 parameters:
   - name: "Kodeord"
     type: "password"

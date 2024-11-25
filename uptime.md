@@ -1,7 +1,7 @@
 ---
 title: "System - Vis computers oppetid"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/uptime.sh
+source: os2borgerpc-scripts/common/system/uptime.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

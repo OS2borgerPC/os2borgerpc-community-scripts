@@ -1,7 +1,7 @@
 ---
 title: "Automatisk borgerlogin til/fra"
 parent: "Login"
-source: /assets/os2borgerpc-scripts/os2borgerpc/login/user_automatic_login.sh
+source: os2borgerpc-scripts/os2borgerpc/login/user_automatic_login.sh
 parameters:
   - name: "Aktiver automatisk borgerlogin"
     type: "boolean"

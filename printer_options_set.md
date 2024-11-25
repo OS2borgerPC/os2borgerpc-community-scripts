@@ -1,7 +1,7 @@
 ---
 title: "Sæt indstillinger"
 parent: "Printer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/printer/printer_options_set.sh
+source: os2borgerpc-scripts/os2borgerpc/printer/printer_options_set.sh
 parameters:
   - name: "Printer-navn"
     type: "string"

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Intune: Installer"
 parent: "Programmer"
-source: /assets/os2borgerpc-scripts/os2borgerpc/os2borgerpc/microsoft_intune_install.sh
+source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/microsoft_intune_install.sh
 parameters:
   - name: "Installér?"
     type: "boolean"

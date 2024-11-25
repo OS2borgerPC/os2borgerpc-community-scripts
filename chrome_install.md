@@ -1,7 +1,7 @@
 ---
 title: "Chrome: Installer"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/chrome_install.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/chrome_install.sh
 parameters:
   - name: "Installér?"
     type: "boolean"

@@ -1,7 +1,7 @@
 ---
 title: "Firefox: Kiosk og Sæt startside(r)"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/firefox_global_policies.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/firefox_global_policies.sh
 parameters:
   - name: "Startside-URL"
     type: "string"

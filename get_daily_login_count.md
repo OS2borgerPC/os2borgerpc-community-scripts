@@ -1,7 +1,7 @@
 ---
 title: "Send løbende antal login dagligt til adminsitet"
 parent: "Login"
-source: /assets/os2borgerpc-scripts/os2borgerpc/login/get_daily_login_count.sh
+source: os2borgerpc-scripts/os2borgerpc/login/get_daily_login_count.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

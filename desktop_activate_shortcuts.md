@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Aktiver genveje"
 parent: "Udfases"
-source: /assets/os2borgerpc-scripts/os2borgerpc/udfases/desktop_activate_shortcuts.sh
+source: os2borgerpc-scripts/os2borgerpc/udfases/desktop_activate_shortcuts.sh
 parameters:
 compatibility:  
   - "22.04"

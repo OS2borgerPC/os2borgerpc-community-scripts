@@ -1,7 +1,7 @@
 ---
 title: "Sæt standard-browser"
 parent: "Browser"
-source: /assets/os2borgerpc-scripts/os2borgerpc/browser/browser_set_default.sh
+source: os2borgerpc-scripts/os2borgerpc/browser/browser_set_default.sh
 summary: "Skifter standard-browseren ml. eksempelvis Firefox og Chrome."
 parameters:
   - name: "Ønsket standardbrowser (firefox, google-chrome, microsoft-edge)"

@@ -1,7 +1,7 @@
 ---
 title: "Juster adgang til terminalen"
 parent: "Sikkerhed"
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/protect_terminal.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/protect_terminal.sh
 parameters:
   - name: "Giv adgang til terminalen"
     type: "boolean"

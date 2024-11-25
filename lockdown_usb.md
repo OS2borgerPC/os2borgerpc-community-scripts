@@ -1,7 +1,7 @@
 ---
 title: "Bloker for login ved USB-event"
 parent: "Sikkerhed"
-source: /assets/os2borgerpc-scripts/os2borgerpc/sikkerhed/lockdown_usb.sh
+source: os2borgerpc-scripts/os2borgerpc/sikkerhed/lockdown_usb.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

@@ -1,7 +1,7 @@
 ---
 title: "System - Sæt system clock fra BIOS"
 parent: "System"
-source: /assets/os2borgerpc-scripts/common/system/set_local_time_from_bios.sh
+source: os2borgerpc-scripts/common/system/set_local_time_from_bios.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

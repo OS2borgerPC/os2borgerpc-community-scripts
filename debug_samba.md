@@ -1,7 +1,7 @@
 ---
 title: "Samba"
 parent: "Fejlfinding"
-source: /assets/os2borgerpc-scripts/common/fejlfinding/debug_samba.sh
+source: os2borgerpc-scripts/common/fejlfinding/debug_samba.sh
 parameters:
 compatibility:
   - "Kiosk"
