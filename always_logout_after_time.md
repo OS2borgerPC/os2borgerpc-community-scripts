@@ -1,7 +1,7 @@
 ---
 title: "Log altid ud efter X minutter uden besked"
 parent: "Sikkerhed"
-source: os2borgerpc-scripts/os2borgerpc/sikkerhed/always_logout_after_time.sh
+source: scripts/always_logout_after_time.sh
 parameters:
   - name: "Minutter (parametret)"
     type: "int"

@@ -1,7 +1,7 @@
 ---
 title: "Sæt dansk tidszone og sprog"
 parent: "Kiosk"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/set_datetime.sh
+source: scripts/set_datetime.sh
 parameters:
 compatibility:  
   - "22.04"

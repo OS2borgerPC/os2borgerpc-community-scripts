@@ -1,7 +1,7 @@
 ---
 title: "Rotér skærm"
 parent: "System"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/rotate_display.sh
+source: scripts/rotate_display.sh
 parameters:
   - name: "Rotationsretning (normal/right/left)"
     type: "string"

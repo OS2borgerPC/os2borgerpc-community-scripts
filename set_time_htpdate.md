@@ -1,7 +1,7 @@
 ---
 title: "System - Synkroniser tid nu (alternativ til NTP)"
 parent: "System"
-source: os2borgerpc-scripts/common/system/set_time_htpdate.sh
+source: scripts/set_time_htpdate.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

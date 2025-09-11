@@ -1,7 +1,7 @@
 ---
 title: "System - Luk computeren NU"
 parent: "System"
-source: os2borgerpc-scripts/common/system/shutdown_now.sh
+source: scripts/shutdown_now.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

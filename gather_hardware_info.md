@@ -1,7 +1,7 @@
 ---
 title: "Hardware"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/gather_hardware_info.sh
+source: scripts/gather_hardware_info.sh
 parameters:
 compatibility:
   - "Kiosk"

@@ -1,7 +1,7 @@
 ---
 title: "Opsæt HP USB Skanner"
 parent: "Skanner"
-source: os2borgerpc-scripts/os2borgerpc/skanner/hp-usb-scanner-setup.sh
+source: scripts/hp-usb-scanner-setup.sh
 parameters:
 compatibility:  
   - "22.04"

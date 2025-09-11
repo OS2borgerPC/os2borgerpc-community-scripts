@@ -1,7 +1,7 @@
 ---
 title: "Sæt indstillinger for Dokumentskanner (simple scan)"
 parent: "Skanner"
-source: os2borgerpc-scripts/os2borgerpc/skanner/dconf_simple_scan.sh
+source: scripts/dconf_simple_scan.sh
 parameters:
   - name: "Papirstørrelse"
     type: "text_field"

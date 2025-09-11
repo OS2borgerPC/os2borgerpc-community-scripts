@@ -1,7 +1,7 @@
 ---
 title: "Lyd"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_sound.sh
+source: scripts/debug_sound.sh
 parameters:
 compatibility:
   - "Kiosk"

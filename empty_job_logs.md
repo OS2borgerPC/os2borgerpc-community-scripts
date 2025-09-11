@@ -1,7 +1,7 @@
 ---
 title: "Ryd joblogs"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/tools/empty_job_logs.sh
+source: scripts/empty_job_logs.sh
 parameters:
 ---
 

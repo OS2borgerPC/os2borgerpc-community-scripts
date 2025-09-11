@@ -1,7 +1,7 @@
 ---
 title: "Netværk"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_network.sh
+source: scripts/debug_network.sh
 parameters:
   - name: "Host (IP-adresse eller hostnavn)"
     type: "string"

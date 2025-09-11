@@ -1,7 +1,7 @@
 ---
 title: "System - Genstart computeren NU"
 parent: "System"
-source: os2borgerpc-scripts/common/system/reboot_now.sh
+source: scripts/reboot_now.sh
 compatibility: 
   - "22.04"
   - "BorgerPC"

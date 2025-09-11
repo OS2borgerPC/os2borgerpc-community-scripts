@@ -2,7 +2,7 @@
 title: "Ryd lydindstillinger"
 parent: "Lyd"
 
-source: os2borgerpc-scripts/common/lyd/pulse_clear_audio_settings.sh
+source: scripts/pulse_clear_audio_settings.sh
 parameters:
 compatibility:
   - "Kiosk"

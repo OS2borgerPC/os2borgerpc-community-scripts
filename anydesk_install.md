@@ -1,7 +1,7 @@
 ---
 title: "AnyDesk: Installer"
 parent: "Programmer"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/anydesk_install.sh
+source: scripts/anydesk_install.sh
 parameters:
   - name: "Installer?"
     type: "boolean"

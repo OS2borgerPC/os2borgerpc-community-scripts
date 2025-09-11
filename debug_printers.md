@@ -1,7 +1,7 @@
 ---
 title: "Printere"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_printers.sh
+source: scripts/debug_printers.sh
 parameters:
 compatibility:
   - "Kiosk"

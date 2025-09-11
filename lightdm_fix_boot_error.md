@@ -1,7 +1,7 @@
 ---
 title: "Fix Light Display Manager Opstarts-fejl"
 parent: "System"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/lightdm_fix_boot_error.sh
+source: scripts/lightdm_fix_boot_error.sh
 parameters:
   - name: "Aktiver fix?"
     type: "boolean"

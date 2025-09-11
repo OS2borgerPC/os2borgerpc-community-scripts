@@ -4,7 +4,7 @@ parent: "Opgradering"
 nav_order: 12
 summary: |
          Dette script er fjerde og sidste skridt i opgraderingen til Ubuntu 22.04 på OS2borgerPC Kiosk.
-source: os2borgerpc-scripts/common/22_04_opgradering/kiosk_lts_upgrade_in_place_step_4.sh
+source: scripts/kiosk_lts_upgrade_in_place_step_4.sh
 parameters: []
 compatibility: 
   - "20.04"

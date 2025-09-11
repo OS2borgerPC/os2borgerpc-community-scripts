@@ -2,7 +2,7 @@
 title: "Skriv informationer omkring lydenheder til job-loggen"
 parent: "Lyd"
 
-source: os2borgerpc-scripts/common/lyd/pulse_info.sh
+source: scripts/pulse_info.sh
 parameters:
 compatibility:
   - "Kiosk"

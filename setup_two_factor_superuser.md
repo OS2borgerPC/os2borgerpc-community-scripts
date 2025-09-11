@@ -1,7 +1,7 @@
 ---
 title: "Totrinsbekræftelse for superuser"
 parent: "Sikkerhed"
-source: os2borgerpc-scripts/sikkerhed/setup_two_factor_superuser.sh
+source: scripts/setup_two_factor_superuser.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

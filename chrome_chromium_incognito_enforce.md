@@ -1,7 +1,7 @@
 ---
 title: "Sæt Inkognito-indstillinger"
 parent: "Browser"
-source: os2borgerpc-scripts/os2borgerpc/browser/chrome_chromium_incognito_enforce.sh
+source: scripts/chrome_chromium_incognito_enforce.sh
 summary: |
   Chrome giver mulighed for at åbne et "Incognito vindue". Med dette script kan slå muligheden til/fra eller tvinge browseren til altid at køre i incognito-tilstand."
 parameters:

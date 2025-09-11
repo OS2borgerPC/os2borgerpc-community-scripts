@@ -1,7 +1,7 @@
 ---
 title: "Genstart computer efter X minutter"
 parent: "System"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/reboot_after_time.sh
+source: scripts/reboot_after_time.sh
 parameters:
   - name: "minutter"
     type: "string"

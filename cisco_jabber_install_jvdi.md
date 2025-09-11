@@ -1,7 +1,7 @@
 ---
 title: "Cisco Jabber (JVDI) - Installer"
 parent: "Programmer"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/cisco_jabber_install_jvdi.sh
+source: scripts/cisco_jabber_install_jvdi.sh
 parameters:
   - name: "fil"
     type: "file"

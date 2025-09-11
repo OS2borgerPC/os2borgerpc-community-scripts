@@ -1,7 +1,7 @@
 ---
 title: "Brother-printer: Installer"
 parent: "Printer"
-source: os2borgerpc-scripts/os2borgerpc/printer/printer_brother_add.sh
+source: scripts/printer_brother_add.sh
 parameters:
   - name: "LPR-driver"
     type: "file"

@@ -1,7 +1,7 @@
 ---
 title: "Chrome - Autostart tilføj/fjern"
 parent: "Udfases"
-source: os2borgerpc-scripts/os2borgerpc/udfases/chrome_autostart.sh
+source: scripts/chrome_autostart.sh
 parameters:
   - name: "Tilføj"
     type: "boolean"

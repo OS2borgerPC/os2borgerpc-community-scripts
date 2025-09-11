@@ -2,7 +2,7 @@
 title: "Sæt standard-lydudgang (sink)"
 parent: "Lyd"
 
-source: os2borgerpc-scripts/common/lyd/pulse_policy_sink_default.sh
+source: scripts/pulse_policy_sink_default.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

@@ -1,7 +1,7 @@
 ---
 title: "System - Skift navn på en computer"
 parent: "System"
-source: os2borgerpc-scripts/common/system/change_computer_name.sh
+source: scripts/change_computer_name.sh
 parameters:
   - name: "Nyt computernavn"
     type: "string"

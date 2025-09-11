@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC generel"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/os2borgerpc_general_debug.sh
+source: scripts/os2borgerpc_general_debug.sh
 parameters:
 compatibility:
   - "Kiosk"

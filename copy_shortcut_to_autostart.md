@@ -1,7 +1,7 @@
 ---
 title: "Kopier genvej til autostart"
 parent: "Desktop"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/copy_shortcut_to_autostart.sh
+source: scripts/copy_shortcut_to_autostart.sh
 parameters:
   - name: "Navn på genvej (uden .desktop) der skal kopieres til autostart"
     type: "string"

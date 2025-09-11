@@ -1,7 +1,7 @@
 ---
 title: "System - GRUB: Gør menuen tilgængelig"
 parent: "System"
-source: os2borgerpc-scripts/common/system/grub_menu_make_accessible.sh
+source: scripts/grub_menu_make_accessible.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

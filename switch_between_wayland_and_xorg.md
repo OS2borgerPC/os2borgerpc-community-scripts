@@ -1,7 +1,7 @@
 ---
 title: "Skift ml. Wayland og Xorg"
 parent: "System"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/switch_between_wayland_and_xorg.sh
+source: scripts/switch_between_wayland_and_xorg.sh
 parameters:
   - name: "Gør Wayland til standard?"
     type: "boolean"

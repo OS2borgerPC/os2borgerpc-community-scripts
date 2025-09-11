@@ -4,7 +4,7 @@ parent: "Opgradering"
 nav_order: 2
 summary: |
          Dette script er første skridt i opgraderingen til Ubuntu 22.04 på både OS2borgerPC og OS2borgerPC Kiosk.
-source: os2borgerpc-scripts/common/22_04_opgradering/general_lts_upgrade_in_place_step_1.sh
+source: scripts/general_lts_upgrade_in_place_step_1.sh
 parameters: []
 compatibility: 
   - "20.04"

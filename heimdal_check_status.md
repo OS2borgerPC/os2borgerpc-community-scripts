@@ -1,7 +1,7 @@
 ---
 title: "Heimdal tjek status"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/heimdal_check_status.sh
+source: scripts/heimdal_check_status.sh
 parameters:
 compatibility:
   - "Kiosk"

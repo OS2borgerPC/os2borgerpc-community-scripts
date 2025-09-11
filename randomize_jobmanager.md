@@ -1,7 +1,7 @@
 ---
 title: "System - Jobmanager: Skift start-tidspunkt og interval"
 parent: "System"
-source: os2borgerpc-scripts/common/system/randomize_jobmanager.sh
+source: scripts/randomize_jobmanager.sh
 parameters:
   - name: "Interval"
     type: "int"

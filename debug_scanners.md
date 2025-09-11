@@ -1,7 +1,7 @@
 ---
 title: "Skannere"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_scanners.sh
+source: scripts/debug_scanners.sh
 parameters:
 compatibility:
   - "Kiosk"

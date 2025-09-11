@@ -1,7 +1,7 @@
 ---
 title: "OS2display"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_os2display.sh
+source: scripts/debug_os2display.sh
 parameters:
   - name: "Domænet for din OS2display-server"
     type: "string"

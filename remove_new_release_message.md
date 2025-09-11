@@ -1,7 +1,7 @@
 ---
 title: "Desktop - Fjern besked om opdatering / opgradering"
 parent: "Udfases"
-source: os2borgerpc-scripts/os2borgerpc/udfases/remove_new_release_message.sh
+source: scripts/remove_new_release_message.sh
 parameters:
 compatibility:  
   - "22.04"

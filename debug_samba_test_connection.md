@@ -1,7 +1,7 @@
 ---
 title: "Samba - Tjek forbindelse"
 parent: "Fejlfinding"
-source: os2borgerpc-scripts/common/fejlfinding/debug_samba_test_connection.sh
+source: scripts/debug_samba_test_connection.sh
 parameters:
   - name: "IP-adresse på BorgerPC'en der kører Samba"
     type: "string"

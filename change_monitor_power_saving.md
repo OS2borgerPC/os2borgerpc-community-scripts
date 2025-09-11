@@ -2,7 +2,7 @@
 title: "Juster skærmdvale"
 parent: "Kiosk"
 summary: "Scriptet deaktiverer eller genaktiverer skærmdvale ved inaktivitet for en OS2borgerPC Kiosk."
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc_kiosk/change_monitor_power_saving.sh
+source: scripts/change_monitor_power_saving.sh
 parameters:
   - name: "Tillad skærmdvale?"
     type: "boolean"

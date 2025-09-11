@@ -1,7 +1,7 @@
 ---
 title: "OS2borgerPC - Logud-knap"
 parent: "Udfases"
-source: os2borgerpc-scripts/os2borgerpc/udfases/desktop_logout_button.sh
+source: scripts/desktop_logout_button.sh
 parameters:
   - name: "Aktiver?"
     type: "boolean"

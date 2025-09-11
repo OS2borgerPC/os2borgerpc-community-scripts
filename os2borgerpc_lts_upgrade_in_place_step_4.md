@@ -4,7 +4,7 @@ parent: "Opgradering"
 nav_order: 8
 summary: |
          Dette script er fjerde og sidste skridt i opgraderingen til Ubuntu 22.04 på almindelig OS2borgerPC.
-source: os2borgerpc-scripts/common/22_04_opgradering/os2borgerpc_lts_upgrade_in_place_step_4.sh
+source: scripts/os2borgerpc_lts_upgrade_in_place_step_4.sh
 parameters: []
 compatibility: 
   - "20.04"

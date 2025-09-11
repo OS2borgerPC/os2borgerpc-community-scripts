@@ -1,7 +1,7 @@
 ---
 title: "Slå print-notifikationer fra"
 parent: "Printer"
-source: os2borgerpc-scripts/os2borgerpc/printer/dconf_print_notifications.sh
+source: scripts/dconf_print_notifications.sh
 parameters:
   - name: "Aktivér?"
     type: "boolean"

@@ -1,7 +1,7 @@
 ---
 title: "Skift kodeord for Borger"
 parent: "System"
-source: os2borgerpc-scripts/os2borgerpc/os2borgerpc/change_user_password.sh
+source: scripts/change_user_password.sh
 parameters:
   - name: "Kodeord"
     type: "password"
