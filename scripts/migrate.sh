@@ -19,7 +19,7 @@ apt install git jq -y
 DEFAULT_OS2BORGERPC_CLIENT=https://github.com/OS2borgerPC/os2borgerpc-client.git
 set_os2borgerpc_config os2borgerpc_client_package "$DEFAULT_OS2BORGERPC_CLIENT"
 
-pip install --force-reinstall "git+$DEFAULT_OS2BORGERPC_CLIENT@2.5.0"
+pip install --force-reinstall "git+$DEFAULT_OS2BORGERPC_CLIENT@v2.6.5"
 
 ORIGINAL_SITE=$(get_os2borgerpc_config "site")
 ORIGINAL_ADMIN_URL=$(get_os2borgerpc_config "admin_url")
