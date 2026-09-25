@@ -25,7 +25,30 @@ else
     sudo apt install -y librewolf
 fi
 
-# 2. Set up LibreWolf policies
+
+# 2. Set LibreWolf non-default preferences
+
+LIBREWOLF_CFG="/usr/share/librewolf/librewolf.cfg"
+
+if [ ! -f "$LIBREWOLF_CFG" ]; then
+    echo "ERROR: LibreWolf configuration file not found: $LIBREWOLF_CFG"
+    exit 1
+fi
+
+# Remove the previous installation preferences, if present
+sed -i '/^\/\/ Below are non-default prefs added during installation$/,$d' "$LIBREWOLF_CFG"
+
+# Add the current installation preferences
+cat >> "$LIBREWOLF_CFG" <<'EOF'
+
+// Below are non-default prefs added during installation
+pref("privacy.spoof_english", 1);
+EOF
+
+echo "LibreWolf non-default preferences updated."
+
+
+# 3. Set up LibreWolf policies
 
 POLICY_DIR="/usr/share/librewolf/distribution"
 POLICY_FILE="$POLICY_DIR/policies.json"
@@ -43,21 +66,10 @@ cat > "$POLICY_FILE" <<'EOF'
       "StartPage": "homepage"
     },
 
-    "Preferences": {
-      "browser.tabs.inTitlebar": {
-        "Value": 0,
-        "Status": "locked"
-      },
-      "privacy.spoof_english": {
-        "Value": 2,
-        "Status": "locked"
-      }
-    },
-
     "PrivateBrowsingModeAvailability": 2,
 
-    "DisplayBookmarksToolbar": "always",
     "NoDefaultBookmarks": true,
+    "DisplayBookmarksToolbar": "never",
 
     "DisableAccounts": true,
     "DisableFirefoxScreenshots": true,
