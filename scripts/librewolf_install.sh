@@ -8,6 +8,9 @@ if get_os2borgerpc_config os2_product | grep --quiet kiosk; then
   exit 1
 fi
 
+# set argument ($1) (True/False) to lowercase for use as variable in policies.json and librewolf.overrides.cfg
+DRM_ENABLED="${1,,}"
+
 # 1. Install LibreWolf 
 
 if ! command -v extrepo >/dev/null 2>&1; then
@@ -26,26 +29,36 @@ else
 fi
 
 
-# 2. Set LibreWolf non-default preferences
+# 2. Set up LibreWolf custom preferences
 
-LIBREWOLF_CFG="/usr/share/librewolf/librewolf.cfg"
+LIBREWOLF_OVERRIDES="/home/.skjult/.config/librewolf/librewolf/librewolf.overrides.cfg"
 
-if [ ! -f "$LIBREWOLF_CFG" ]; then
-    echo "ERROR: LibreWolf configuration file not found: $LIBREWOLF_CFG"
-    exit 1
+# Create the LibreWolf configuration directory
+mkdir -p "$(dirname "$LIBREWOLF_OVERRIDES")"
+
+# Write our custom LibreWolf preferences
+
+if [ "$DRM_ENABLED" = "true" ]; then
+    DRM_PERMISSION=1
+else
+    DRM_PERMISSION=2
 fi
 
-# Remove the previous installation preferences, if present
-sed -i '/^\/\/ Below are non-default prefs added during installation$/,$d' "$LIBREWOLF_CFG"
+cat > "$LIBREWOLF_OVERRIDES" <<EOF
+// Custom settings for the library installation
 
-# Add the current installation preferences
-cat >> "$LIBREWOLF_CFG" <<'EOF'
-
-// Below are non-default prefs added during installation
+// Use normal website language detection
 pref("privacy.spoof_english", 1);
+
+// DRM
+pref("media.eme.enabled", $DRM_ENABLED);
+pref("media.gmp-manager.updateEnabled", $DRM_ENABLED);
+pref("media.gmp-widevinecdm.enabled", $DRM_ENABLED);
+pref("media.gmp-widevinecdm.autoupdate", $DRM_ENABLED);
+pref("permissions.default.media-key-system-access", $DRM_PERMISSION);
 EOF
 
-echo "LibreWolf non-default preferences updated."
+echo "LibreWolf custom preferences written to $LIBREWOLF_OVERRIDES"
 
 
 # 3. Set up LibreWolf policies
@@ -57,7 +70,7 @@ POLICY_FILE="$POLICY_DIR/policies.json"
 mkdir -p "$POLICY_DIR"
 
 # Write LibreWolf policies
-cat > "$POLICY_FILE" <<'EOF'
+cat > "$POLICY_FILE" <<EOF
 {
   "policies": {
     "Homepage": {
@@ -67,6 +80,11 @@ cat > "$POLICY_FILE" <<'EOF'
     },
 
     "PrivateBrowsingModeAvailability": 2,
+
+    "EncryptedMediaExtensions": {
+      "Enabled": $DRM_ENABLED,
+      "Locked": true
+    },
 
     "NoDefaultBookmarks": true,
     "DisplayBookmarksToolbar": "never",
